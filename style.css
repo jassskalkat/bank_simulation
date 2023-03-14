@@ -1,0 +1,115 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: rgb(70, 187, 115);
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+
+nav{
+	background-color: black;
+	color: white;
+	margin: 0;
+	text-decoration: none;
+	padding: 0 10% 0 10%;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	font-size: 1.5em;
+	text-align: center;
+}
+table{
+	background-color: rgb(77, 142, 240);
+	border-color: black;
+	width: 100%;
+	margin-bottom:10px;
+}
+
+.inline{
+	display:inline-block;
+}
+
+#loginPage{
+	background-color: #fff;
+	padding: 10px;
+	max-width: 90%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: inline-block;
+	min-width: 10%;
+	min-height: 10%;
+	text-align: center;
+}
+.box{
+	background-color: #fff;
+	padding: 10px;
+	max-width: 20%;
+	min-width: 10%;
+	min-height: 10%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.button{
+	color: white;
+	padding: 5px;
+	background-color: rgb(7, 124, 170);
+	border: 2px solid black;
+}
+.button:hover{
+	background-color: rgb(5, 94, 129);
+}
+
+.newline{
+	margin-bottom: 15px;
+}
+#title{
+	margin-top: 30px;
+	text-align: center;
+}
+.errorMsg{
+	color: red;
+}
+#greeting{
+	margin-top: 15%;
+	text-align: center;	
+	margin-bottom: 0;
+}
+#name{
+	margin-top: 0%;
+	text-align: center;	
+}
+h6{
+	margin-top: 6px;
+	margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topLinks {
+	margin:0 8%;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+.topLinks:hover{
+	text-decoration: underline;
+}
+
